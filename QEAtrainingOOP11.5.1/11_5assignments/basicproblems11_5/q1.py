@@ -3,4 +3,7 @@ n times in a single line without space between them. Output must have a newline 
 
 
 
-a = input("variable a")
+a = input("enter variable a\n")
+n = input("enter variable n\n")
+output = " ".join([a] * int(n))
+print(output)
