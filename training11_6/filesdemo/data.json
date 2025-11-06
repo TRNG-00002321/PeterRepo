@@ -1,0 +1,10 @@
+{
+    "Name": "John",
+    "Age": 30,
+    "City": "Plano",
+    "isStudent": true,
+    "courses": [
+        "QEA",
+        "Home Ec"
+    ]
+}
