@@ -1,0 +1,4 @@
+This is a file.
+Files can be read and written to.
+<(=w=)>
+Hello Computer
