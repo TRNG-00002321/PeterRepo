@@ -48,7 +48,6 @@ def changeloop(change: int):
         while inchange >= coins[i]:
             charr[i] += 1
             inchange = round(inchange - coins[i], 2)
-
     return charr
 
 
@@ -73,7 +72,7 @@ if __name__ == "__main__":
     print(f"Thank you for your purchase!")
     change = changeloop(totalpaid)
     formchange = ", ".join([str(change[x]) + " " + x for x in change])
-    print(f"Your change is: {formchange}")
+    print(f"Your change is: ${totalpaid}; {formchange}")
 
 
 
