@@ -1,0 +1,8 @@
+2025-11-06 10:08:32,592 - root - INFO - This is a info message
+2025-11-06 10:08:32,592 - root - WARNING - warning
+2025-11-06 10:08:32,592 - root - ERROR - error
+2025-11-06 10:08:32,592 - root - CRITICAL - critical
+2025-11-06 10:44:38,381 - root - INFO - This is a info message
+2025-11-06 10:44:38,381 - root - WARNING - warning
+2025-11-06 10:44:38,381 - root - ERROR - error
+2025-11-06 10:44:38,381 - root - CRITICAL - critical
