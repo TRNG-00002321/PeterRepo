@@ -56,8 +56,9 @@ if __name__ == "__main__":
     inputmsg = "Please select your drink using the numbers\n"
     print(vendingmsg)
     drinkval = int(input(inputmsg))
-    price = prices[drinkval]
+
     if drinkval in prices:
+        price = prices[drinkval]
         print(f"Your drink costs ${price}")
     else:
         print("Invalid number")
