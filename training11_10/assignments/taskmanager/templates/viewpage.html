@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Tasks</title>
+</head>
+<body>
+<table border="1">
+    {% for item in tasks %}
+    <tr>
+        <th>{{item["Task"]}}</th>
+        <td>Complete: {{item["Complete"]}}</td>
+        <td>Description: {{item["Description"]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<form action="http://127.0.0.1:5000/create">
+    <input type="submit" value="Go to Task Creation" />
+</form>
+<form action="http://127.0.0.1:5000/delete">
+    <input type="submit" value="Go to Task Deletion" />
+</form>
+<form action="http://127.0.0.1:5000/complete">
+    <input type="submit" value="Go to Task Completion" />
+</form>
+
+</body>
+</html>
