@@ -13,6 +13,7 @@ def appendfile(fname:str, data):
         json.dump(data, f)
         f.write("\n")
 
+
 def overwritefile(fname:str, data):
     with open(fname, "w") as f:
         for i in data:

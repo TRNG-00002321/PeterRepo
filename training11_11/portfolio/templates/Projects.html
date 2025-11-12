@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+</head>
+<body>
+<h1>Projects</h1>
+<table border="1">
+    {% for item in projects %}
+    <tr>
+        <th>{{item["Name"]}}
+        <td>{{item["Description"]}}</td>
+        <td>{{item["Year"]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<form action="http://127.0.0.1:5000/">
+    <input type="submit" value="Return Home" />
+</form>
+</body>
+</html>

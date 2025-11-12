@@ -1,0 +1,2 @@
+{"Question": "What is 12 * 12", "Answer": "144"}
+{"Question": "What is 12 * 1", "Answer": "12"}

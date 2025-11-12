@@ -17,14 +17,20 @@ def welcome():
 #Read
 @app.route("/view", methods=["GET"])
 def view_table():
-    #TODO: create html page that loops through task dictionary
-
     return render_template("viewpage.html", tasks=filemodule.loadfile(filename))
 
 #Create
 @app.route("/create")
 def create_page():
     return render_template("createpage.html")
+
+@app.route("/complete")
+def complete_page():
+    return render_template("completepage.html")
+
+@app.route("/delete")
+def delete_page():
+    return render_template("deletepage.html")
 
 @app.route("/add_task", methods=["POST"])
 def add_task():
@@ -33,17 +39,11 @@ def add_task():
     tcomp = request.form.get("completed", False)
     # tcomp = request.form["completed"]
     tdes = request.form["desc"]
-    #todo: create dictionary, filemodule append
     d = {"Task": tname,"Complete": tcomp, "Description": tdes}
     filemodule.appendfile(filename, d)
     # print(request.values)
     return redirect(url_for("view_table"))
 
-
-@app.route("/delete")
-def delete_page():
-    #todo: html deletion form page
-    return render_template("deletepage.html")
 
 @app.route("/delete_task", methods=["POST"])
 def delete_task():
@@ -52,9 +52,7 @@ def delete_task():
     filemodule.overwritefile(filename, objs)
     return redirect(url_for("view_table"))
 
-@app.route("/complete")
-def complete_page():
-    return render_template("completepage.html")
+
 
 @app.route("/complete_task", methods=["POST"])
 def complete_task():
