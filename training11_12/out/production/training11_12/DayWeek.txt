@@ -29,8 +29,8 @@ public class DayWeek{
 		case 7:
 			System.out.println("Saturday");
 		break;		
-		default:
-			System.out.println("What planet are you from?");
+		case default:
+			System.out.println("What planet are you from");
 
 		}
 		
