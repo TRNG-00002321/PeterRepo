@@ -1,3 +1,2 @@
 {"Task": "Hi", "Complete": true, "Description": "Helloge"}
-{"Task": "Make Dinner", "Complete": false, "Description": "Prepare sustenance by allocating resources located within refrigerator"}
-{"Task": "Update", "Complete": false, "Description": "Test"}
+{"Task": "New Task", "Complete": false, "Description": "Hi"}
