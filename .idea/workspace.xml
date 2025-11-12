@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efc1c446-e341-437c-9e13-f6e621535642" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/training11_11/expensetracker/dbfunc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training11_11/expensetracker/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training11_11/portfolio/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training11_11/portfolio/projects.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training11_11/portfolio/templates/About_Me.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training11_11/portfolio/templates/Projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training11_11/quizapp/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training11_11/quizapp/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training11_11/thing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training11_10/assignments/taskmanager/filemodule.py" beforeDir="false" afterPath="$PROJECT_DIR$/training11_10/assignments/taskmanager/filemodule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training11_10/assignments/taskmanager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/training11_10/assignments/taskmanager/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training11_10/assignments/taskmanager/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/training11_10/assignments/taskmanager/tasks.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +26,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "11__10asgnmnt",
+    "git-widget-placeholder": "11__11asgmnt",
     "last_opened_file_path": "C:/Users/peter/OneDrive/Desktop/Desktop/QEA/AssignmentRepo"
   }
 }]]></component>
