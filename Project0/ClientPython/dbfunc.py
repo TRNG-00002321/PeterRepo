@@ -40,6 +40,17 @@ def initialize():
     cursor.execute(approvals_query)
     conn.commit()
 
+def login(username: str, password: str, conn):
+    log_query = "SELECT * FROM USER WHERE USERNAME = '%s' AND PASSWORD = '%s'"%(username, password)
+    cursor = conn.cursor()
+    cursor.execute(log_query)
+    result = cursor.fetchone()
+    #result may return None
+    return result
+
+
+
+
 
 def get_connection():
     try:
