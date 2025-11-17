@@ -14,7 +14,9 @@ public class SavingAccount extends  BankAccount{
 
     @Override
     public double withdraw(double amount) {
-        this.balance -= amount;
+        double balance = super.getBalance();
+        balance -= amount;
+        super.setBalance(balance);
         return balance;
     }
 }

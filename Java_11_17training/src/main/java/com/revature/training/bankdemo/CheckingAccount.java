@@ -13,7 +13,9 @@ public class CheckingAccount extends BankAccount{
     @Override
     public double withdraw(double amount) {
         double surcharge = 0.01 * amount;
-        this.balance -= (surcharge+amount);
-        return this.balance;
+        double balance = super.getBalance();
+        balance -= (surcharge+amount);
+        super.setBalance(balance);
+        return balance;
     }
 }

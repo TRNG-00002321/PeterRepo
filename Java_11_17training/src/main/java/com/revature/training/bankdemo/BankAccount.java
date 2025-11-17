@@ -1,9 +1,9 @@
 package com.revature.training.bankdemo;
 
 public abstract class BankAccount {
-    protected String id;
-    protected String name;
-    protected double balance;
+    private String id;
+    private String name;
+    private double balance;
 
 
     public BankAccount(){
@@ -13,6 +13,14 @@ public abstract class BankAccount {
         this.id = inid;
         this.name = inname;
         this.balance = inbalance;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 
     public double deposit(double addition){
