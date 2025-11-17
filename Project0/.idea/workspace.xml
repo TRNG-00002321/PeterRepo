@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="687eeee0-363c-45cc-b670-0688d7a14781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/BankManger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/SavingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/persondemo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/persondemo/PersonManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MavenDemo/src/main/java/com/revature/demo/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MavenDemo/src/test/java/com/revature/test/TesterOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_13training/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_13training/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientPython/database/expense.db" beforeDir="false" afterPath="$PROJECT_DIR$/ClientPython/database/expense.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientPython/dbfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClientPython/dbfunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_11_17training/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_11_17training/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/BankManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/BankManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientPython/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClientPython/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +31,7 @@
   "keyToString": {
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Project0",
+    "git-widget-placeholder": "11__17asgnmnt",
     "last_opened_file_path": "C:/Users/peter/OneDrive/Desktop/Desktop/QEA/AssignmentRepo/Project0",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }

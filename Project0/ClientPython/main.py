@@ -10,8 +10,8 @@ import dbfunc
 X    As an employee, I want to log in with my credentials so that I can securely access my expense reports.
 X    As an employee, I want to submit a new expense with details about amount and description so that I can request reimbursement or track spending.
 X    As an employee, I want to view the status of my submitted expenses so that I know whether they are pending, approved, or denied.
-    As an employee, I want to edit or delete expenses that are still pending so that I can correct mistakes before they are reviewed.
-    As an employee, I want to view a history of all my approved and denied expenses so that I can track my financial activity over time.
+X    As an employee, I want to edit or delete expenses that are still pending so that I can correct mistakes before they are reviewed.
+X    As an employee, I want to view a history of all my approved and denied expenses so that I can track my financial activity over time.
 
 
 """

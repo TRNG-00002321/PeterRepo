@@ -8,10 +8,16 @@ public class BankManger {
         System.out.println(c1.toString());
         System.out.println(s1.toString());
         c1.withdraw(320000);
+        c1.withdraw(0.25);
         c1.deposit(1000);
         System.out.println(c1.toString());
         s1.deposit(10000);
         s1.withdraw(7200.5);
+
+        System.out.println(s1.toString());
+
+        System.out.println("First Interest: " + s1.calculateInterest());
+        System.out.println("Second Interest: " + s1.calculateInterest());
         System.out.println(s1.toString());
 
     }
