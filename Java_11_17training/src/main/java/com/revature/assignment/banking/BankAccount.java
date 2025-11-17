@@ -1,4 +1,4 @@
-package com.revature.training.bankdemo;
+package com.revature.assignment.banking;
 
 public abstract class BankAccount {
     private String id;
@@ -23,12 +23,15 @@ public abstract class BankAccount {
         this.balance = balance;
     }
 
-    public double deposit(double addition){
+    public double deposit(double addition) throws IllegalArgumentException{
+        if(addition < 0){
+            throw new IllegalArgumentException("Cannot deposit negative dollars to your account");
+        }
         balance = balance + addition;
         return balance;
     }
 
-    public abstract double withdraw(double amount);
+    public abstract double withdraw(double amount) throws WithdrawalException, IllegalArgumentException;
 
     @Override
     public String toString() {

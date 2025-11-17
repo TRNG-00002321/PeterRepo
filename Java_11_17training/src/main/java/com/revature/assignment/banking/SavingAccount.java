@@ -1,4 +1,4 @@
-package com.revature.training.bankdemo;
+package com.revature.assignment.banking;
 
 public class SavingAccount extends BankAccount implements InterestInterface{
 
@@ -13,10 +13,19 @@ public class SavingAccount extends BankAccount implements InterestInterface{
     }
 
     @Override
-    public double withdraw(double amount) {
+    public double withdraw(double amount) throws WithdrawalException, IllegalArgumentException{
+        if(amount < 0){
+            throw new IllegalArgumentException("Cannot withdraw negative dollars from a savings account");
+        }
         double balance = super.getBalance();
+
         balance -= amount;
-        super.setBalance(balance);
+        if(balance < 5000){
+            throw new WithdrawalException("Withdrawal failed, insufficient funds");
+        }
+        else {
+            super.setBalance(balance);
+        }
         return balance;
     }
 

@@ -1,4 +1,4 @@
-package com.revature.training.bankdemo;
+package com.revature.assignment.banking;
 
 public interface InterestInterface {
 
