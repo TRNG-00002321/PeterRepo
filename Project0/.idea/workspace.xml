@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="687eeee0-363c-45cc-b670-0688d7a14781" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java_11_17training/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_11_17training/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/BankManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/BankManger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientPython/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClientPython/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/assignment/employees/ContractualEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/assignment/employees/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/assignment/employees/EmployeeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/assignment/employees/SalariedEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
