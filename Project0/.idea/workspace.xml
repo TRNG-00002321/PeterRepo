@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="687eeee0-363c-45cc-b670-0688d7a14781" name="Changes" comment="" />
+    <list default="true" id="687eeee0-363c-45cc-b670-0688d7a14781" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/BankManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/bankdemo/SavingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/persondemo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/training/persondemo/PersonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenDemo/src/main/java/com/revature/demo/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenDemo/src/test/java/com/revature/test/TesterOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_13training/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_13training/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientPython/database/expense.db" beforeDir="false" afterPath="$PROJECT_DIR$/ClientPython/database/expense.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientPython/dbfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClientPython/dbfunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientPython/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClientPython/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +23,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="35OcFsn9z6olHpClxaBDoUDV5tL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,8 +34,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "11__12asgmnt"
+    "git-widget-placeholder": "Project0",
+    "last_opened_file_path": "C:/Users/peter/OneDrive/Desktop/Desktop/QEA/AssignmentRepo/Project0",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
