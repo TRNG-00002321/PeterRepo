@@ -54,12 +54,12 @@ def view_transactions(tr_ls: []):
     for i in tr_ls:
         print(f"ID: {i[0]}\nDate: {i[1]}\nCategory: {i[3]}\t Amount:{i[2]}\n")
         if not i[4] == '':
-            print(f"Decription: {i[4]}\n")
+            print(f"Description: {i[4]}\n")
 def view_transaction(tr_ls):
     i = tr_ls
     print(f"ID: {i[0]}\nDate: {i[1]}\nCategory: {i[3]}\t Amount:{i[2]}\n")
     if not i[4] == '':
-        print(f"Decription: {i[4]}\n")
+        print(f"Description: {i[4]}\n")
 
 def to_float(val: str):
     try:
@@ -133,7 +133,7 @@ if __name__ == "__main__":
                     print("Invalid date")
                     continue
             if column.upper() == "AMOUNT":
-                changed = to_float(changed)
+                changed = float(changed)
                 if(changed == None):
                     continue
             else:

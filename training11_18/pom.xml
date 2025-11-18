@@ -8,11 +8,11 @@
         <version>3.5.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.revature.training</groupId>
-    <artifactId>Java_11_17training</artifactId>
+    <groupId>com.revature</groupId>
+    <artifactId>training11_18</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Java_11_17training</name>
-    <description>Java_11_17training</description>
+    <name>training11_18</name>
+    <description>training11_18</description>
     <url/>
     <licenses>
         <license/>
@@ -45,23 +45,8 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.5.0</version>
-                <configuration>
-                    <archive>
-                        <index>true</index>S
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <mainClass>com.revature.assignment.employees.EmployeeManager</mainClass>
-                        </manifest>
-                        <manifestEntries>
-                            <mode>development</mode>
-                            <url>${project.url}</url>
-                            <key>value</key>
-                        </manifestEntries>
-                    </archive>
-                </configuration>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>

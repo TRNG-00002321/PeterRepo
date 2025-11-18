@@ -1,10 +1,10 @@
-package com.revature.training;
+package com.revature.demos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Java1117trainingApplicationTests {
+class Training1118ApplicationTests {
 
     @Test
     void contextLoads() {
