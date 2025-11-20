@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="687eeee0-363c-45cc-b670-0688d7a14781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/assignment/employees/ContractualEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/assignment/employees/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/assignment/employees/EmployeeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_11_17training/src/main/java/com/revature/assignment/employees/SalariedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientPython/database/expense.db" beforeDir="false" afterPath="$PROJECT_DIR$/ClientPython/database/expense.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +30,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "11__17asgnmnt",
-    "last_opened_file_path": "C:/Users/peter/OneDrive/Desktop/Desktop/QEA/AssignmentRepo/Project0",
+    "last_opened_file_path": "C:/Users/peter/OneDrive/Desktop/Desktop/QEA/Project0",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>

@@ -1,0 +1,9 @@
+2025-11-19 13:21:03,238 INFO [main] c.r.t.l.LogDemo [LogDemo.java:11] - info lol
+2025-11-19 13:21:03,241 WARN [main] c.r.t.l.LogDemo [LogDemo.java:12] - WARN
+2025-11-19 13:22:15,827 INFO [main] app.log [LogDemo.java:11] - info lol
+2025-11-19 13:22:15,830 WARN [main] app.log [LogDemo.java:12] - WARN
+2025-11-19 13:22:27,035 INFO [main] c.r.t.l.LogDemo [LogDemo.java:11] - info lol
+2025-11-19 13:22:27,039 WARN [main] c.r.t.l.LogDemo [LogDemo.java:12] - WARN
+2025-11-19 14:01:52,244 INFO [main] c.r.t.l.LogDemo [LogDemo.java:11] - info lol
+2025-11-19 14:01:52,249 WARN [main] c.r.t.l.LogDemo [LogDemo.java:12] - WARN
+2025-11-19 14:01:52,249 ERROR [main] c.r.t.l.LogDemo [LogDemo.java:13] - Test error
