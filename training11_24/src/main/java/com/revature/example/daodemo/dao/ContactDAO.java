@@ -2,21 +2,20 @@ package com.revature.example.daodemo.dao;
 
 import com.revature.example.daodemo.model.Contacts;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface ContactDAO {
 
-    public default List<Contacts> getAllContact(){
-        System.out.println("Egg");
-        List<Contacts> e = new ArrayList<>();
-        return e;
+    public default List<Contacts> getAllContacts(){
+        return null;
     }
-    public Contacts getContact(int id);
-    public default void save(Contacts contact){
+    public default Contacts getContact(int id){
+        return null;
+    }
+    public default void save(Contacts contacts){
 
     }
-    public default Contacts update(int id){
+    public default Contacts update(int id, String column, String value){
         return null;
     }
     public default void delete(int id){
