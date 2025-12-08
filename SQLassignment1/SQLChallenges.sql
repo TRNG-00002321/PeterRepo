@@ -64,29 +64,42 @@ SELECT `BillingCountry`, COUNT(`BillingCountry`) as Count FROM `Invoice` GROUP B
 
 -- JOINS CHALLENGES
 -- Every Album by Artist
-SELECT `Name`, `Title` FROM Album join Artist on (`ArtistId`)
+SELECT `Name`, `Title` FROM Album join Artist on (Album.`ArtistId` = Artist.`ArtistId`)
 
 -- (inner keyword is optional for inner join)
 -- All songs of the rock genre
+SELECT Track.Name, Track.`Composer` FROM Track JOIN `Genre` ON Track.`GenreId` = `Genre`.`GenreId` WHERE Genre.name LIKE "ROCK";
+
 
 
 -- Show all invoices of customers from brazil (mailing address not billing)
-
+SELECT CONCAT(c.`FirstName`, " ", c.`LastName`) as FullName, `InvoiceDate` FROM `Customer` as c JOIN `Invoice` as i ON i.`CustomerId` = c.`CustomerId` WHERE c.`Country` LIKE "Brazil";
 
 -- Show all invoices together with the name of the sales agent for each one
+SELECT CONCAT(e.`FirstName`, " ", e.`LastName`) as fullname, i.`InvoiceDate`, i.`InvoiceId`, i.`Total` FROM 
+`Employee` as e JOIN `Customer` as c ON c.`SupportRepId` = e.`EmployeeId` JOIN `Invoice` as i 
+ON i.`CustomerId` = c.`CustomerId` WHERE e.title LIKE "%agent%"
 
-
--- Which sales agent made the most sales in 2009?
-
+-- Which sales agent made the most sales in 2021?
+SELECT CONCAT(e.`FirstName`, " ", e.`LastName`) as fullname, COUNT(*) as transactionCount FROM 
+`Employee` as e JOIN `Customer` as c ON c.`SupportRepId` = e.`EmployeeId` JOIN `Invoice` as i  
+ON i.`CustomerId` = c.`CustomerId` WHERE YEAR(`InvoiceDate`) = 2021 GROUP BY e.`EmployeeId` ORDER BY transactionCount DESC LIMIT 1 
 
 -- How many customers are assigned to each sales agent?
+SELECT CONCAT(e.`FirstName`, " ", e.`LastName`) as fullname, COUNT(*) FROM 
+`Employee` as e JOIN `Customer` as c ON c.`SupportRepId` = e.`EmployeeId` 
+WHERE e.title LIKE "%agent%" GROUP BY e.`EmployeeId`
 
-
--- Which track was purchased the most in 2010?
-
+-- Which track was purchased the most in 2024?
+SELECT t.name, COUNT(*) as purchaseCount FROM Invoice as i JOIN 
+`InvoiceLine` as l ON i.`InvoiceId` = l.`InvoiceId` JOIN `Track` as t ON l.`TrackId` = t.`TrackId` 
+WHERE YEAR(i.`InvoiceDate`)  = 2024 GROUP BY t.`Name` ORDER BY purchaseCount DESC LIMIT 1;
 
 -- Show the top three best selling artists.
-
+Select a.`Name`, COUNT(*) as TotalSold FROM `Track` as t
+JOIN `InvoiceLine` as l on t.`TrackId`=l.`TrackId` JOIN Album as b 
+ON b.`AlbumId` = t.`AlbumId` JOIN `Artist` as a ON a.`ArtistId` = b.`ArtistId`
+GROUP BY a.`Name` ORDER BY TotalSold DESC Limit 3
 
 -- Which customers have the same initials as at least one other customer?
 
