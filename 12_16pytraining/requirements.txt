@@ -1,0 +1,6 @@
+pytest
+requests
+jsonschema
+pydantic
+httpx
+responses
