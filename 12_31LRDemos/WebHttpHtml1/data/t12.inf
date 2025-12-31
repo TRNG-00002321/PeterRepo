@@ -1,0 +1,17 @@
+[t12]
+FileName1=t12.html
+URL1=http://ocsp.digicert.com/
+Total=4
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_Down_arrow.svg
+URL2=https://advantageonlineshopping.com/css/images/Down_arrow.svg
+FileName3=t12_main.min.html
+URL3=https://advantageonlineshopping.com/main.min.js
+FileName4=t12_success.txt
+URL4=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

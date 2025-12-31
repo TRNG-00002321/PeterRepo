@@ -1,0 +1,13 @@
+[t13]
+FileName1=t13.html
+URL1=https://mozilla.cloudflare-dns.com/dns-query
+Total=2
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=application/dns-message
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_Roboto-Regular-webfont.html
+URL2=https://advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

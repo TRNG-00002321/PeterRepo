@@ -1,0 +1,37 @@
+[Scenario]
+Product=Professional Performance Engineering Controller
+Version=2025.3.0.0
+Path=C:\Users\peter\OneDrive\Documents\Controller\scenario\Demo1231_01.lrs
+Subject=Demo1231_01
+Result_file=C:\Users\peter\OneDrive\Desktop\Desktop\QEA\AssignmentRepo\12_31LRDemos\ResultDemo010\ResultDemo010.lrr
+Description=
+ResultName=ResultDemo010
+Time_Zone=21600
+Start_time=1767198700
+Daylight_Bias=0
+Stop_time=1767199243
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 44 Vusers: 10 every 00:00:30 (HH:MM:SS); Run for 00:05:00 (HH:MM:SS); Stop all Vusers: 5 every 00:00:15 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST44_10E30;R300;SP44_5E15;
+[Scripts]
+WebHttpHtml1_1=C:\Users\peter\OneDrive\Desktop\Desktop\QEA\AssignmentRepo\12_31LRDemos\WebHttpHtml1\WebHttpHtml1.usr
+WebHttpHtml1_2=C:\Users\peter\OneDrive\Desktop\Desktop\QEA\AssignmentRepo\12_31LRDemos\WebHttpHtml1\WebHttpHtml1.usr
+WebHttpHtml1=C:\Users\peter\OneDrive\Desktop\Desktop\QEA\AssignmentRepo\12_31LRDemos\WebHttpHtml1\WebHttpHtml1.usr
+[Scripts_types]
+WebHttpHtml1_1=Multi+QTWeb
+WebHttpHtml1_2=Multi+QTWeb
+WebHttpHtml1=Multi+QTWeb

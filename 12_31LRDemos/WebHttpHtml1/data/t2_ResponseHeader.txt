@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 562
+access-control-expose-headers: Backoff, Content-Type, Alert, Content-Length, Retry-After
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+content-security-policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+expires: Wed, 31 Dec 2025 16:13:55 GMT
+x-content-type-options: nosniff
+cache-control: max-age=3600
+server: nginx
+strict-transport-security: max-age=31536000
+access-control-allow-origin: *
+content-type: application/json
+Content-Encoding: br
+Accept-Ranges: bytes
+Date: Wed, 31 Dec 2025 15:56:27 GMT
+Age: 245
+X-Served-By: cache-dfw-ktki8620050-DFW, cache-dfw-ktki8620083-DFW
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 44
+X-Timer: S1767196588.585801,VS0,VE0
+Vary: Accept-Encoding
+

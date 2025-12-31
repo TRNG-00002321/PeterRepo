@@ -1,0 +1,17 @@
+Virtual User Script started at: 12/31/2025 9:55:47 AM
+Starting action vuser_init.
+Web Turbo Replay of Opentext Performance Engineering 2025.3.0 for Windows 11; build 654 (Jul 09 2025 09:17:06)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\peter\OneDrive\Desktop\Desktop\QEA\AssignmentRepo\12_31LRDemos\WebHttpHtml1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

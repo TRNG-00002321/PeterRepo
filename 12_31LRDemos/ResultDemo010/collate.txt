@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\peter\OneDrive\Desktop\Desktop\QEA\AssignmentRepo\12_31LRDemos\Scenario1.lrs
+Completed=0

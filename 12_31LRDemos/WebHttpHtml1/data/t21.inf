@@ -1,0 +1,15 @@
+[t21]
+FileName1=t21_ALL.json
+URL1=https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_21.xml
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+FileName2=t21_logo.png
+URL2=https://advantageonlineshopping.com/css/images/logo.png
+FileName3=t21_closeDark.png
+URL3=https://advantageonlineshopping.com/css/images/closeDark.png
+[ProtocolInfo]
+ProtocolId=QTWeb

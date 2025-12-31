@@ -1,0 +1,15 @@
+[t20]
+FileName1=t20.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/nimbus-targeting-context/1/720987b0-1501-45ff-b488-23cd828c51f1
+Total=3
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=t20_RequestBody.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_Roboto-Light-webfont.html
+URL2=https://advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff
+FileName3=t20_Roboto-Medium-webfont.html
+URL3=https://advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

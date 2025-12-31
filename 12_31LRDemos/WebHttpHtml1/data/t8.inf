@@ -1,0 +1,17 @@
+[t8]
+FileName1=t8.html
+URL1=http://o.pki.goog/s/we1/HDc
+Total=4
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_main.min.css
+URL2=https://advantageonlineshopping.com/css/main.min.css
+FileName3=t8_threatListUpdates_fetch.html
+URL3=https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDrlR4aAhgKzW7icCICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABENK8ExoCGAoyvyPDIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ-LQTGgIYClwncwwiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARDcwBMaAhgKrAnj0yICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECQaAhgK80oTOSICIAIoAQ==
+FileName4=t8_require.html
+URL4=https://advantageonlineshopping.com/vendor/requirejs/require.js
+[ProtocolInfo]
+ProtocolId=QTWeb
