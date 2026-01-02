@@ -1,0 +1,15 @@
+[hosts]
+detectportal.firefox.com=
+content-signature-2.cdn.mozilla.net=
+advantageonlineshopping.com=
+firefox.settings.services.mozilla.com=
+o.pki.goog=
+push.services.mozilla.com=
+easylist-downloads.adblockplus.org=
+ocsp.digicert.com=
+mozilla.cloudflare-dns.com=
+incoming.telemetry.mozilla.org=
+www.googletagmanager.com=
+prod.ohttp-gateway.prod.webservices.mozgcp.net=
+mozilla-ohttp.fastly-edge.com=
+merino.services.mozilla.com=

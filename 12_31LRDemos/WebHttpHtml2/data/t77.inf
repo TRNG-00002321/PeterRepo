@@ -1,0 +1,11 @@
+[t77]
+FileName1=t77.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/b1427d24-8249-4deb-afb9-c22f457b4dcf
+Total=1
+RequestHeaderFile=t77_RequestHeader.txt
+RequestBodyFile=t77_RequestBody.txt
+ResponseHeaderFile=t77_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_77.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

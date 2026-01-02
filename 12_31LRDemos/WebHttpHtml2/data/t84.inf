@@ -1,0 +1,11 @@
+[t84]
+FileName1=t84.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/442ea218-aa75-4142-800f-97d86c9eda50
+Total=1
+RequestHeaderFile=t84_RequestHeader.txt
+RequestBodyFile=t84_RequestBody.txt
+ResponseHeaderFile=t84_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_84.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

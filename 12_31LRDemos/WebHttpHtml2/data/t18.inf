@@ -1,0 +1,15 @@
+[t18]
+FileName1=t18.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/9c8259ba-fd7e-4362-9774-7700db832e7b
+Total=3
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=t18_RequestBody.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_18.xml
+FileName2=t18_Roboto-Light-webfont.html
+URL2=https://advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff
+FileName3=t18_Roboto-Medium-webfont.html
+URL3=https://advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

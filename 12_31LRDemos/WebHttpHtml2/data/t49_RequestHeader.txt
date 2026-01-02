@@ -1,0 +1,15 @@
+GET /app/views/shoppingCart.html HTTP/1.1
+Host: advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+Accept: text/html
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Sec-GPC: 1
+Connection: keep-alive
+Referer: https://advantageonlineshopping.com/
+Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%7B%22productId%22%3A3%2C%22imageUrl%22%3A%221300%22%2C%22productName%22%3A%22HP%20Pavilion%2015z%20Touch%20Laptop%22%2C%22color%22%3A%7B%22code%22%3A%223683D1%22%2C%22name%22%3A%22BLUE%22%2C%22inStock%22%3A10%2C%22%24%24hashKey%22%3A%22object%3A155%22%7D%2C%22quantity%22%3A1%2C%22price%22%3A449.99%2C%22hasWarranty%22%3Afalse%7D%5D%7D; _ga_TBPYED8WSW=GS2.1.s1767371281$o1$g0$t1767371281$j60$l0$h0; _ga=GA1.1.1061670671.1767371282
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+

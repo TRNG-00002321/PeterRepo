@@ -1,0 +1,11 @@
+HTTP/2.0 200
+Status: 200
+server: cloudflare
+date: Fri, 02 Jan 2026 16:40:47 GMT
+content-type: application/dns-message
+access-control-allow-origin: *
+x-content-type-options: nosniff
+content-length: 468
+cf-ray: 9b7bb340df8de7a6-DFW
+alt-svc: h3=":443"; ma=86400
+

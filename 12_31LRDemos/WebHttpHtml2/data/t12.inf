@@ -1,0 +1,15 @@
+[t12]
+FileName1=t12.html
+URL1=https://mozilla.cloudflare-dns.com/dns-query
+Total=3
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/dns-message
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_main.min.html
+URL2=https://advantageonlineshopping.com/main.min.js
+FileName3=t12_Down_arrow.svg
+URL3=https://advantageonlineshopping.com/css/images/Down_arrow.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

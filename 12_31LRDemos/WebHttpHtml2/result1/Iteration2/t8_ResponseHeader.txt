@@ -1,0 +1,27 @@
+HTTP/2.0 200
+Status: 200
+content-language: en-US
+cross-origin-opener-policy: same-origin
+set-cookie: session_id=ivnzykw02ohnv430wfid8fqnrdqm01ji; expires=Fri, 30 Jan 2026 16:40:28 GMT; HttpOnly; Max-Age=2419200; Path=/; SameSite=Lax; Secure
+x-backend-server: gha-sumo-web-6bcdfcd4d7-hwkwv.prod.webservices.mozgcp.net
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+accept-ranges: bytes
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, no-cache, no-store, must-revalidate, private
+x-frame-options: DENY
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+strict-transport-security: max-age=31536000
+expires: Fri, 02 Jan 2026 16:40:28 GMT
+content-security-policy: connect-src 'self' https://*.google-analytics.com https://location.services.mozilla.com https://accounts.firefox.com/metrics-flow https://accounts.stage.mozaws.net/metrics-flow https://basket.mozilla.org; media-src 'self' https://*.webservices.mozgcp.net; frame-src 'self' https://*.youtube.com; style-src 'self' https://*.webservices.mozgcp.net https://*.jsdelivr.net; img-src 'self' blob: data: https://*.mozaws.net https://*.webservices.mozgcp.net https://*.google-analytics.com https://profile.accounts.firefox.com https://firefoxusercontent.com https://secure.gravatar.com https://i1.wp.com https://mozillausercontent.com; default-src 'none'; script-src 'self' https://*.mozilla.org https://*.webservices.mozgcp.net https://*.google-analytics.com https://*.googletagmanager.com https://pontoon.mozilla.org https://*.jsdelivr.net; form-action 'self' https://accounts.firefox.com https://accounts.stage.mozaws.net; font-src 'self' https://*.webservices.mozgcp.net; manifest-src https://support.allizom.org https://support.mozilla.org
+server: gunicorn
+accept-ch: Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-robots-tag: noodp
+date: Fri, 02 Jan 2026 16:40:28 GMT
+x-served-by: cache-dfw-ktki8620047-DFW, cache-dfw-ktki8620047-DFW
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1767372029.712520,VS0,VE85
+vary: Accept-Encoding
+content-length: 86856
+

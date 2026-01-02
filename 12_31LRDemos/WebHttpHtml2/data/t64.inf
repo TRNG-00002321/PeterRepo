@@ -1,0 +1,11 @@
+[t64]
+FileName1=t64.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/usage-reporting/1/68b2637f-2149-4ccd-8e19-5d17b77c6d67
+Total=1
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=t64_RequestBody.txt
+ResponseHeaderFile=t64_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_64.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

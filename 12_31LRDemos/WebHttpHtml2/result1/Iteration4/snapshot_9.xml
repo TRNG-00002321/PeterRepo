@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9">
+  <HTTPTask id="220" url="wss://push.services.mozilla.com/" ip="34.107.243.93" port="443" client_ip="192.168.1.96" client_port="51582" connectionId="3020" origin="Primary" startDateTime="2026-01-02T10:40:45.055-06:00" startTime="39269">
+    <HTTPRequest method="GET">
+      <HTTPHeaders>
+        <HTTPAllHeaders>
+          <HTTPDataSet>
+            <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
+              <ActualData>R0VUIC8gSFRUUC8xLjENCkNvbm5lY3Rpb246IFVwZ3JhZGUNClNlYy1XZWJTb2NrZXQtRXh0ZW5zaW9uczogcGVybWVzc2FnZS1kZWZsYXRlOyBjbGllbnRfbm9fY29udGV4dF90YWtlb3ZlcjsgY2xpZW50X21heF93aW5kb3dfYml0cw0KU2VjLVdlYlNvY2tldC1LZXk6IFBBZDNNdUxyWmhtaFRVclNaYnpjVUE9PQ0KU2VjLVdlYlNvY2tldC1WZXJzaW9uOiAxMw0KVXBncmFkZTogd2Vic29ja2V0DQpPcmlnaW46IHdzczovL3B1c2guc2VydmljZXMubW96aWxsYS5jb20vDQpSZWZlcmVyOiBodHRwOi8vZGV0ZWN0cG9ydGFsLmZpcmVmb3guY29tL2Nhbm9uaWNhbC5odG1sDQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxNDYuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDYuMA0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlLCBicg0KQWNjZXB0LUxhbmd1YWdlOiBlbi1VUyxlbjtxPTAuNQ0KQWNjZXB0OiAqLyoNCkNvbm5lY3Rpb246IEtlZXAtQWxpdmUNCkhvc3Q6IHB1c2guc2VydmljZXMubW96aWxsYS5jb20NCg0K</ActualData>
+            </HTTPData>
+          </HTTPDataSet>
+          <IsExternalData>false</IsExternalData>
+        </HTTPAllHeaders>
+      </HTTPHeaders>
+    </HTTPRequest>
+    <HTTPResponse>
+      <contentLenght>0</contentLenght>
+      <HTTPHeaders>
+        <HTTPAllHeaders>
+          <HTTPDataSet>
+            <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
+              <ActualData>SFRUUC8xLjEgMTAxIFN3aXRjaGluZyBQcm90b2NvbHMNCnNlYy13ZWJzb2NrZXQtYWNjZXB0OiAxeVJBSG9qZkVzR0U4UC83ejlDenhCY2xNQkk9DQpkYXRlOiBGcmksIDAyIEphbiAyMDI2IDE2OjQwOjQ0IEdNVA0KVmlhOiAxLjEgZ29vZ2xlDQpVcGdyYWRlOiB3ZWJzb2NrZXQNCkNvbm5lY3Rpb246IFVwZ3JhZGUNCkFsdC1TdmM6IGgzPSI6NDQzIjsgbWE9MjU5MjAwMCxoMy0yOT0iOjQ0MyI7IG1hPTI1OTIwMDANCg0K</ActualData>
+            </HTTPData>
+          </HTTPDataSet>
+          <IsExternalData>false</IsExternalData>
+        </HTTPAllHeaders>
+      </HTTPHeaders>
+    </HTTPResponse>
+  </HTTPTask>
+</HTTPSnapshot>

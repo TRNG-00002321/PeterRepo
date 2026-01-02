@@ -1,0 +1,19 @@
+POST /submit/firefox-desktop/baseline/1/4b31f805-3665-4c30-82c1-d3fad095da01 HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+content-length: 1599
+content-encoding: gzip
+x-telemetry-agent: Glean/66.1.2 (Rust on Windows)
+date: Fri, 02 Jan 2026 16:28:10 GMT
+content-type: application/json; charset=utf-8
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+

@@ -1,0 +1,11 @@
+[t91]
+FileName1=t91_all_data.json
+URL1=https://advantageonlineshopping.com/catalog/api/v1/categories/all_data
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_91.xml
+RequestHeaderFile=t91_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t91_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

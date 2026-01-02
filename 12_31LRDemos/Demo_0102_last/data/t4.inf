@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.html
+URL1=http://o.pki.goog/s/wr3/QZ0
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

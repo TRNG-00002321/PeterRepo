@@ -1,0 +1,11 @@
+[t67]
+FileName1=t67.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/d377d2e9-be01-457f-8e3e-b97f27f11089
+Total=1
+RequestHeaderFile=t67_RequestHeader.txt
+RequestBodyFile=t67_RequestBody.txt
+ResponseHeaderFile=t67_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_67.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

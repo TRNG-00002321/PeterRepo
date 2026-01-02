@@ -1,0 +1,11 @@
+[t79]
+FileName1=t79.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/usage-reporting/1/dce9f768-7f6e-4e3d-b730-fc773f31dde3
+Total=1
+RequestHeaderFile=t79_RequestHeader.txt
+RequestBodyFile=t79_RequestBody.txt
+ResponseHeaderFile=t79_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_79.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+content-encoding: gzip
+x-cloud-trace-context: e8d0ea0233d11c1b7c073409f45e939e
+date: Fri, 02 Jan 2026 16:46:05 GMT
+server: Google Frontend
+Transfer-Encoding: chunked
+

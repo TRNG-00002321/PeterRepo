@@ -1,0 +1,11 @@
+[t80]
+FileName1=t80.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/health/1/3c5145f1-23cf-49f5-a5c1-021cb902c879
+Total=1
+RequestHeaderFile=t80_RequestHeader.txt
+RequestBodyFile=t80_RequestBody.txt
+ResponseHeaderFile=t80_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_80.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t1]
+FileName1=t1.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=2
+RequestHeaderFile=t1_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t1_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_1.xml
+FileName2=t1_remote-settings.content-signature.mozilla.org-2026-01-27-09-17-39.html
+URL2=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-27-09-17-39.chain
+[ProtocolInfo]
+ProtocolId=QTWeb

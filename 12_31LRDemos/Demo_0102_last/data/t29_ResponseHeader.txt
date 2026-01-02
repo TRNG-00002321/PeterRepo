@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: application/ocsp-response
+Content-Length: 5
+Connection: keep-alive
+Date: Fri, 02 Jan 2026 16:45:42 GMT
+Vary: Accept-Encoding
+Server: cloudflare
+CF-Ray: 9b7bba753f117d5d-DFW
+CF-Cache-Status: HIT
+Accept-Ranges: bytes
+Cache-Control: max-age=600
+Last-Modified: Fri, 02 Jan 2026 16:44:28 GMT
+X-Cache: Miss from cloudfront
+Via: 1.1 d2faea19ee1764a31207da8111622a98.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DFW59-P6
+X-Amz-Cf-Id: Sgtn0daYA1KhjbDGktrEwT8FS5nJBBTti1abfwrBuu7z_hg-rCLvkA==
+Age: 74
+

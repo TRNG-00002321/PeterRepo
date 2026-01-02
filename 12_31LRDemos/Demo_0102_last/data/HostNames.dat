@@ -1,0 +1,13 @@
+[hosts]
+detectportal.firefox.com=
+merino.services.mozilla.com=
+o.pki.goog=
+push.services.mozilla.com=
+blazedemo.com=
+ocsp.digicert.com=
+incoming.telemetry.mozilla.org=
+mozilla.cloudflare-dns.com=
+ocsp.r2m04.amazontrust.com=
+blazemeter.trackinglibrary.prodperfect.com=
+mozilla-ohttp.fastly-edge.com=
+easylist-downloads.adblockplus.org=

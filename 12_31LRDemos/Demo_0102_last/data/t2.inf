@@ -1,0 +1,11 @@
+[t2]
+FileName1=t2_suggest.json
+URL1=https://merino.services.mozilla.com/api/v1/suggest?providers=geolocation&q=&sid=2a48afba-482d-4f04-ac13-98c15d1972ee&seq=1
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

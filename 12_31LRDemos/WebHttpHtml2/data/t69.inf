@@ -1,0 +1,11 @@
+[t69]
+FileName1=t69.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/nimbus-targeting-context/1/48874c08-1f7d-4caa-9edf-62968f9bc23b
+Total=1
+RequestHeaderFile=t69_RequestHeader.txt
+RequestBodyFile=t69_RequestBody.txt
+ResponseHeaderFile=t69_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_69.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

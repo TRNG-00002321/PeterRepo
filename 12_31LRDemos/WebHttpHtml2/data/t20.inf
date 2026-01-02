@@ -1,0 +1,15 @@
+[t20]
+FileName1=t20.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/25dfa3f8-1d63-4ac4-a2f3-26d6262614b8
+Total=3
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=t20_RequestBody.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_closeDark.png
+URL2=https://advantageonlineshopping.com/css/images/closeDark.png
+FileName3=t20_js.html
+URL3=https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW
+[ProtocolInfo]
+ProtocolId=QTWeb

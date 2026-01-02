@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\peter\OneDrive\Desktop\Desktop\QEA\AssignmentRepo\12_31LRDemos\WebHttpHtml2
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\users\peter\onedrive\desktop\desktop\qea\assignmentrepo\12_31lrdemos\webhttphtml2\\logfile.log
+c:\users\peter\onedrive\desktop\desktop\qea\assignmentrepo\12_31lrdemos\webhttphtml2\\combined_WebHttpHtml2.c
+c:\users\peter\onedrive\desktop\desktop\qea\assignmentrepo\12_31lrdemos\webhttphtml2\\pre_cci.c

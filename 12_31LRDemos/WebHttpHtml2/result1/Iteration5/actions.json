@@ -1,0 +1,182 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP67",
+                "stepName": "Url: canonical.html",
+                "infFile": "t1.inf",
+                "time": 1767372064509
+            },
+            {
+                "stepId": "STEP68",
+                "stepName": "Url: suggest",
+                "infFile": "t2.inf",
+                "time": 1767372064788
+            },
+            {
+                "stepId": "STEP69",
+                "stepName": "Url: canonical.html_2",
+                "infFile": "t8.inf",
+                "time": 1767372066626
+            },
+            {
+                "stepId": "STEP70",
+                "stepName": "Custom Request: 32d40eda-f06b-4fca-a854-b679d2e29baa",
+                "infFile": "t12.inf",
+                "time": 1767372069261
+            },
+            {
+                "stepId": "STEP71",
+                "stepName": "Custom Request: 68b2637f-2149-4ccd-8e19-5d17b77c6d67",
+                "infFile": "t16.inf",
+                "time": 1767372069941
+            },
+            {
+                "stepId": "STEP72",
+                "stepName": "Custom Request: 4507d954-9cf6-4b35-b8ab-fdc760156de0",
+                "infFile": "t17.inf",
+                "time": 1767372070203
+            },
+            {
+                "stepId": "STEP73",
+                "stepName": "Custom Request: 08646e3a-117a-4121-bebc-2908a818a77b",
+                "infFile": "t18.inf",
+                "time": 1767372070414
+            },
+            {
+                "stepId": "STEP74",
+                "stepName": "Custom Request: d377d2e9-be01-457f-8e3e-b97f27f11089",
+                "infFile": "t19.inf",
+                "time": 1767372070612
+            },
+            {
+                "stepId": "STEP75",
+                "stepName": "Custom Request: c0c35911-0aca-4f43-bacf-5f9175a529f9",
+                "infFile": "t20.inf",
+                "time": 1767372070793
+            },
+            {
+                "stepId": "STEP76",
+                "stepName": "Custom Request: 48874c08-1f7d-4caa-9edf-62968f9bc23b",
+                "infFile": "t21.inf",
+                "time": 1767372070975
+            },
+            {
+                "stepId": "STEP77",
+                "stepName": "Url: ALL",
+                "infFile": "t26.inf",
+                "time": 1767372071897
+            },
+            {
+                "stepId": "STEP78",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t27.inf",
+                "time": 1767372072181
+            },
+            {
+                "stepId": "STEP79",
+                "stepName": "Custom Request: b1427d24-8249-4deb-afb9-c22f457b4dcf",
+                "infFile": "t29.inf",
+                "time": 1767372072613
+            },
+            {
+                "stepId": "STEP80",
+                "stepName": "Custom Request: 0fcf4945-fea3-4957-a9a4-60c73702a335",
+                "infFile": "t30.inf",
+                "time": 1767372072862
+            },
+            {
+                "stepId": "STEP81",
+                "stepName": "Custom Request: dce9f768-7f6e-4e3d-b730-fc773f31dde3",
+                "infFile": "t31.inf",
+                "time": 1767372073117
+            },
+            {
+                "stepId": "STEP82",
+                "stepName": "Custom Request: 3c5145f1-23cf-49f5-a5c1-021cb902c879",
+                "infFile": "t32.inf",
+                "time": 1767372073393
+            },
+            {
+                "stepId": "STEP83",
+                "stepName": "Url: 24",
+                "infFile": "t33.inf",
+                "time": 1767372074558
+            },
+            {
+                "stepId": "STEP84",
+                "stepName": "Url: categories",
+                "infFile": "t34.inf",
+                "time": 1767372075999
+            },
+            {
+                "stepId": "STEP85",
+                "stepName": "Custom Request: 29fcd8aa-b65a-49ef-82ca-2db69d525dbb",
+                "infFile": "t35.inf",
+                "time": 1767372076271
+            },
+            {
+                "stepId": "STEP86",
+                "stepName": "Custom Request: 442ea218-aa75-4142-800f-97d86c9eda50",
+                "infFile": "t36.inf",
+                "time": 1767372076522
+            },
+            {
+                "stepId": "STEP87",
+                "stepName": "Url: search",
+                "infFile": "t37.inf",
+                "time": 1767372077715
+            },
+            {
+                "stepId": "STEP88",
+                "stepName": "Url: home-page.html",
+                "infFile": "t38.inf",
+                "time": 1767372078026
+            },
+            {
+                "stepId": "STEP89",
+                "stepName": "Url: products",
+                "infFile": "t39.inf",
+                "time": 1767372079309
+            },
+            {
+                "stepId": "STEP90",
+                "stepName": "Url: attributes",
+                "infFile": "t40.inf",
+                "time": 1767372080587
+            },
+            {
+                "stepId": "STEP91",
+                "stepName": "Url: category-page.html",
+                "infFile": "t41.inf",
+                "time": 1767372080709
+            },
+            {
+                "stepId": "STEP92",
+                "stepName": "Url: 20",
+                "infFile": "t42.inf",
+                "time": 1767372081898
+            },
+            {
+                "stepId": "STEP93",
+                "stepName": "Url: all_data",
+                "infFile": "t43.inf",
+                "time": 1767372083926
+            },
+            {
+                "stepId": "STEP94",
+                "stepName": "Url: products_2",
+                "infFile": "t44.inf",
+                "time": 1767372085200
+            },
+            {
+                "stepId": "STEP95",
+                "stepName": "Url: product-page.html",
+                "infFile": "t45.inf",
+                "time": 1767372085437
+            }
+        ],
+        "transactions": []
+    }
+]

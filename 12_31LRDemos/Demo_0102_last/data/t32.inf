@@ -1,0 +1,13 @@
+[t32]
+FileName1=t32.html
+URL1=https://mozilla.cloudflare-dns.com/dns-query
+Total=2
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=t32_RequestBody.txt
+ResponseHeaderFile=t32_ResponseHeader.txt
+ContentType=application/dns-message
+SnapshotXmlFile=snapshot_32.xml
+FileName2=t32_keen-tracking.min.html
+URL2=https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

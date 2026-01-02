@@ -1,0 +1,831 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-telemetry-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-version",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-protocol",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-extensions",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-gpc",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "priority",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "date",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "message/ohttp-res"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/ocsp-response"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/dns-message"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 21,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "Jan-02-2026",
+    "RecordingDuration": 48296,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1767372313,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 231157,
+    "TotalBytesSent": 125246,
+    "TotalRequests": 53,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "prodperfect.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.154.253.88",
+          "IncludeInScript": true,
+          "Name": "blazemeter.trackinglibrary.prodperfect.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 620,
+              "HttpStatus": 200,
+              "Size": 1208,
+              "URL": "https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "o.pki.goog",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.113.94",
+          "IncludeInScript": true,
+          "Name": "o.pki.goog",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 281,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://o.pki.goog/s/we1/HDc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 234,
+              "EventId": 449,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://o.pki.goog/s/we1/HDc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 141,
+              "EventId": 444,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://o.pki.goog/s/we1/HDc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 78,
+              "EventId": 432,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://o.pki.goog/s/wr3/QZ0"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": true,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 667,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/cdf9aab2-50e6-4d9c-9dfb-0ffc8a27bcac"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 663,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/health/1/1ed07748-fc8e-4034-96ac-7c98d1d3976e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 219,
+              "EventId": 599,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/health/1/a3cc1657-7888-4c7c-a5f4-5bbeeb9d5bc3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 141,
+              "EventId": 593,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/usage-reporting/1/aff2faac-3c5e-47db-a028-07a256e69a65"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 141,
+              "EventId": 590,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/fx-accounts/1/4b0e6a33-2c67-45f6-94ef-a803a6274811"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 141,
+              "EventId": 584,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/3972f01f-dd4d-4961-a8dc-9811da0a1e1c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 172,
+              "EventId": 580,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/nimbus-targeting-context/1/f9d63b0d-1323-4f05-90f1-2828713fe597"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 234,
+              "EventId": 564,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/723dfebc-5c47-41e4-b101-33908b62bad9"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 156,
+              "EventId": 557,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/aa5245d3-c534-413e-a70f-07210c0dc7a2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 156,
+              "EventId": 523,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/71121380-73d8-4b0b-9440-ef90797fff9f"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 504,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/6c0e5122-ff2d-4576-adb9-548b257b8bfb"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.243.93",
+          "IncludeInScript": true,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 452,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "151.101.113.91",
+          "IncludeInScript": true,
+          "Name": "merino.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 409,
+              "HttpStatus": 200,
+              "Size": 425,
+              "URL": "https://merino.services.mozilla.com/api/v1/suggest?providers=geolocation&q=&sid=2a48afba-482d-4f04-ac13-98c15d1972ee&seq=1"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.221.82",
+          "IncludeInScript": true,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 466,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 440,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 434,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 412,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 389,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "fastly-edge.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "151.101.113.91",
+          "IncludeInScript": true,
+          "Name": "mozilla-ohttp.fastly-edge.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "message/ohttp-res",
+              "DownloadTime": 141,
+              "EventId": 656,
+              "HttpStatus": 200,
+              "Size": 623,
+              "URL": "https://mozilla-ohttp.fastly-edge.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.204.150.28",
+          "IncludeInScript": true,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 478,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "cloudflare-dns.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "162.159.61.4",
+          "IncludeInScript": true,
+          "Name": "mozilla.cloudflare-dns.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 94,
+              "EventId": 635,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 63,
+              "EventId": 633,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 630,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 78,
+              "EventId": 628,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 63,
+              "EventId": 626,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 62,
+              "EventId": 618,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 62,
+              "EventId": 616,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 62,
+              "EventId": 597,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 47,
+              "EventId": 595,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 78,
+              "EventId": 574,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 125,
+              "EventId": 570,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 62,
+              "EventId": 562,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 62,
+              "EventId": 560,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 47,
+              "EventId": 552,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 94,
+              "EventId": 516,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "blazedemo.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.239.38.21",
+          "IncludeInScript": true,
+          "Name": "blazedemo.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 678,
+              "HttpStatus": 200,
+              "Size": 5497,
+              "URL": "https://blazedemo.com/confirmation.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 672,
+              "HttpStatus": 200,
+              "Size": 6432,
+              "URL": "https://blazedemo.com/purchase.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 140,
+              "EventId": 644,
+              "HttpStatus": 200,
+              "Size": 7090,
+              "URL": "https://blazedemo.com/reserve.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/vnd.microsoft.icon",
+              "DownloadTime": 109,
+              "EventId": 568,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://blazedemo.com/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 527,
+              "HttpStatus": 200,
+              "Size": 3765,
+              "URL": "https://blazedemo.com/assets/bootstrap-table.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 525,
+              "HttpStatus": 200,
+              "Size": 126461,
+              "URL": "https://blazedemo.com/assets/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 498,
+              "HttpStatus": 200,
+              "Size": 39170,
+              "URL": "https://blazedemo.com/assets/bootstrap-table.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 486,
+              "HttpStatus": 200,
+              "Size": 28663,
+              "URL": "https://blazedemo.com/assets/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 468,
+              "HttpStatus": 200,
+              "Size": 4474,
+              "URL": "https://blazedemo.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "amazontrust.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.84.185.24",
+          "IncludeInScript": true,
+          "Name": "ocsp.r2m04.amazontrust.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 94,
+              "EventId": 607,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m04.amazontrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 109,
+              "EventId": 605,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m04.amazontrust.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "adblockplus.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.205.110.22",
+          "IncludeInScript": true,
+          "Name": "easylist-downloads.adblockplus.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 661,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://easylist-downloads.adblockplus.org/ab-testing/experiments.json"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 3
+}

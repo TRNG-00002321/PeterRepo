@@ -1,0 +1,25 @@
+{
+  "localeWhenConsented" : "IN",
+  "currentLocale" : "US-TX",
+  "consents" : [ {
+    "key" : "unknownCookies",
+    "granted" : false,
+    "updatedTs" : "2025-12-01T19:36:04.693459Z"
+  }, {
+    "key" : "targetingCookies",
+    "granted" : false,
+    "updatedTs" : "2025-12-01T19:36:04.693459Z"
+  }, {
+    "key" : "functionalCookies",
+    "granted" : false,
+    "updatedTs" : "2025-12-01T19:36:04.693459Z"
+  }, {
+    "key" : "performanceCookies",
+    "granted" : false,
+    "updatedTs" : "2025-12-01T19:36:04.693459Z"
+  }, {
+    "key" : "strictlyNecessaryCookies",
+    "granted" : true,
+    "updatedTs" : "2025-12-01T19:36:04.693459Z"
+  } ]
+}

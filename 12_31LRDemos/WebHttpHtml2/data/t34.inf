@@ -1,0 +1,13 @@
+[t34]
+FileName1=t34.html
+URL1=https://mozilla.cloudflare-dns.com/dns-query
+Total=2
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=t34_RequestBody.txt
+ResponseHeaderFile=t34_ResponseHeader.txt
+ContentType=application/dns-message
+SnapshotXmlFile=snapshot_34.xml
+FileName2=t34_ohttp-configs.html
+URL2=https://prod.ohttp-gateway.prod.webservices.mozgcp.net/ohttp-configs
+[ProtocolInfo]
+ProtocolId=QTWeb

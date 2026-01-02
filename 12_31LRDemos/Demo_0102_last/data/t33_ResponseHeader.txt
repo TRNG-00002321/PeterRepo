@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: cloudflare
+Date: Fri, 02 Jan 2026 16:45:43 GMT
+Content-Type: application/dns-message
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Content-Length: 468
+CF-RAY: 9b7bba7d6ed4f09d-DFW
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,32 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP34",
+                "stepName": "Url: canonical.html",
+                "infFile": "t1.inf",
+                "time": 1767372035701
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Url: suggest",
+                "infFile": "t2.inf",
+                "time": 1767372036061
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Url: canonical.html_2",
+                "infFile": "t8.inf",
+                "time": 1767372037176
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Custom Request: dns-query",
+                "infFile": "t11.inf",
+                "time": 1767372042578
+            }
+        ],
+        "transactions": []
+    }
+]

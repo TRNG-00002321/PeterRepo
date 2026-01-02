@@ -1,0 +1,15 @@
+[t8]
+FileName1=t8.html
+URL1=http://o.pki.goog/s/we1/HDc
+Total=3
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_main.min.css
+URL2=https://advantageonlineshopping.com/css/main.min.css
+FileName3=t8_require.html
+URL3=https://advantageonlineshopping.com/vendor/requirejs/require.js
+[ProtocolInfo]
+ProtocolId=QTWeb

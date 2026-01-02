@@ -1,0 +1,6 @@
+[t40]
+FileName1=t40_experiments.json
+URL1=https://easylist-downloads.adblockplus.org/ab-testing/experiments.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_40.xml

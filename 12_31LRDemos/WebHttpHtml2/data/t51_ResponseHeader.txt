@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 425
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+content-type: application/json
+cache-control: private, max-age=300
+server: nginx
+strict-transport-security: max-age=31536000
+x-request-id: 4b9c5eb84a8d44cfb2a720e56a02e939
+Date: Fri, 02 Jan 2026 16:30:52 GMT
+X-Served-By: cache-dfw-ktki8620020-DFW, cache-dfw-ktki8620038-DFW
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1767371452.488892,VS0,VE450
+Vary: Accept-Encoding
+X-Routing-Origin: QwMaSzgcjgWfCUsEik6AyN--F_merino_mozcloud
+

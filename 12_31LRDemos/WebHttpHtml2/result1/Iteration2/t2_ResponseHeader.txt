@@ -1,0 +1,18 @@
+HTTP/2.0 200
+Status: 200
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+content-type: application/json
+cache-control: private, max-age=300
+server: nginx
+strict-transport-security: max-age=31536000
+x-request-id: b2afca1765e84ef194a95fefa58508f8
+date: Fri, 02 Jan 2026 16:40:27 GMT
+x-served-by: cache-dfw-ktki8620086-DFW, cache-dfw-ktki8620082-DFW
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1767372028.845903,VS0,VE84
+vary: Accept-Encoding
+x-routing-origin: QwMaSzgcjgWfCUsEik6AyN--F_merino_mozcloud
+content-length: 425
+

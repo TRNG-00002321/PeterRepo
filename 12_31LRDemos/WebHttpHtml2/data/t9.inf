@@ -1,0 +1,15 @@
+[t9]
+FileName1=t9.html
+URL1=https://push.services.mozilla.com/
+Total=3
+ContentType=font/woff
+SnapshotXmlFile=snapshot_9.xml
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+FileName2=t9_Roboto-Regular-webfont.html
+URL2=https://advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff
+FileName3=t9_abp-filters-anti-cv.txt
+URL3=https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt?addonName=adblockfirefox&addonVersion=6.33.2.1&application=firefox&applicationVersion=146.0.1&platform=gecko&platformVersion=146.0&lastVersion=202601021441&downloadCount=4%2B&disabled=false&manifestVersion=2&firstVersion=2024
+[ProtocolInfo]
+ProtocolId=QTWeb

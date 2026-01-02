@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 563
+access-control-expose-headers: Backoff, Retry-After, Content-Length, Content-Type, Alert
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+content-security-policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+expires: Fri, 02 Jan 2026 16:14:48 GMT
+x-content-type-options: nosniff
+cache-control: max-age=3600
+server: nginx
+strict-transport-security: max-age=31536000
+access-control-allow-origin: *
+content-type: application/json
+Content-Encoding: br
+Accept-Ranges: bytes
+Date: Fri, 02 Jan 2026 16:27:48 GMT
+Age: 2118
+X-Served-By: cache-dfw-ktki8620063-DFW, cache-dfw-ktki8620091-DFW
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 339
+X-Timer: S1767371268.425155,VS0,VE0
+Vary: Accept-Encoding
+
